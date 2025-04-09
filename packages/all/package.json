@@ -1,5 +1,5 @@
 {
-  "name": "@nzoth/markdown-it-mermaid-sse",
+  "name": "@nzoth/toolkit",
   "version": "0.0.2",
   "type": "module",
   "packageManager": "pnpm@9.10.0",
@@ -35,26 +35,8 @@
     "clean": "rimraf .turbo dist node_modules/.cache",
     "build": "pnpm clean && tsup"
   },
-  "devDependencies": {
-    "@types/crypto-js": "^4.2.2",
-    "@types/lodash-es": "^4.17.12",
-    "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.14.0",
-    "crypto-js": "^4.2.0",
-    "dotenv": "^16.4.7",
-    "lodash-es": "^4.17.21",
-    "markdown-it": "^14.1.0"
-  },
   "dependencies": {
-    "mermaid": "^11.6.0"
-  },
-  "peerDependenciesMeta": {
-    "markdown-it": {
-      "optional": false
-    },
-    "mermaid": {
-      "optional": false
-    }
+    "@nzoth/markdown-it-mermaid-sse": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

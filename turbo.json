@@ -1,5 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "ui": "stream",
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
@@ -9,7 +10,11 @@
       "dependsOn": ["build"]
     },
     "clean": {
-      "cache": true
+      "cache": false
+    },
+    "@nzoth/toolkit#build": {
+      "dependsOn": ["@nzoth/markdown-it-mermaid-sse#build"],
+      "outputs": ["dist/**"]
     }
   }
 }
