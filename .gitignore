@@ -1,0 +1,61 @@
+### OS ###
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Jetbrains IDEs ###
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+*.iws
+.idea/httpRequests
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+### Dependencies ###
+node_modules
+.pnpm-store
+
+### Logs ###
+.pnpm-debug.log*
+*.log
+
+### Cache ###
+.turbo
+*.tsbuildinfo
+
+### Compiled outputs ###
+dist
+generated
+
+### Tests ###
+coverage
+
+### Temporary ###
+old
+*.timestamp-*
+

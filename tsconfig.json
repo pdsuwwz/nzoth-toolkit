@@ -1,0 +1,8 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "include": ["src/**/*", "dts/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
