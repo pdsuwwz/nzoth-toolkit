@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/pdsuwwz/nzoth-toolkit?color=466fe8)](https://github.com/pdsuwwz/nzoth-toolkit/blob/main/LICENSE)
 [![Thanks](https://badgen.net/badge/thanks/♥/pink)](https://github.com/pdsuwwz)
 
-⚡️ 一站式前端工具集合，聚合了多个实用工具包，让开发更轻松高效
+⚡️ 一些常用的工具包封装，目前包括 Mermaid 图表语法高亮预览 markdown-it 插件，支持异步 SSE 流式增量渲染
 
 ## 前置条件
 
@@ -26,12 +26,13 @@ pnpm add @nzoth/toolkit
 
 [@nzoth/toolkit](https://www.npmjs.com/package/@nzoth/toolkit) 是一个聚合包，包含以下工具模块：
 
+> 你可以直接安装 `@nzoth/toolkit` 一次性获取所有工具或按需单独安装对应包
+
 | 工具包 | 描述 |
 | ----- | ---- |
 | [@nzoth/markdown-it-mermaid-sse](https://www.npmjs.com/package/@nzoth/markdown-it-mermaid-sse) | Mermaid 图表语法高亮预览 `markdown-it` 插件，支持 `SSE` 流式渲染 |
 | ... | ... |
 
-> 通过安装 `@nzoth/toolkit`，您可以一次性获取所有工具，无需单独安装每个包
 
 ## 🌟 相关项目
 

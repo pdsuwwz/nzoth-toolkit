@@ -1,4 +1,5 @@
 import { defineConfig } from 'tsup'
+import { compileCss } from './src/build'
 
 export default defineConfig([
   {
@@ -11,5 +12,8 @@ export default defineConfig([
       keep_fnames: false
     },
     keepNames: false,
+    async onSuccess() {
+      await compileCss()
+    },
   },
 ])

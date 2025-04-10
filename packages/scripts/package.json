@@ -1,0 +1,24 @@
+{
+  "name": "@nzoth/scripts",
+  "version": "0.0.4",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.10.0",
+  "homepage": "https://github.com/pdsuwwz/nzoth-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdsuwwz/nzoth-toolkit"
+  },
+  "bugs": {
+    "url": "https://github.com/pdsuwwz/nzoth-toolkit/issues"
+  },
+  "scripts": {
+    "clean": "rimraf .turbo dist node_modules/.cache",
+    "start": "tsx ./index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3"
+  }
+}
