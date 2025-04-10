@@ -1,6 +1,6 @@
 {
   "name": "@nzoth/toolkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "packageManager": "pnpm@9.10.0",
   "homepage": "https://github.com/pdsuwwz/nzoth-toolkit",
@@ -18,7 +18,11 @@
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./styles": {
+      "default": "./dist/styles/index.min.css"
+    },
+    "./styles/*": "./dist/styles/*"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -33,7 +37,8 @@
   },
   "scripts": {
     "clean": "rimraf .turbo dist node_modules/.cache",
-    "build": "pnpm clean && tsup"
+    "build": "pnpm clean && tsup && pnpm onbuild",
+    "onbuild": "pnpm -F scripts start"
   },
   "dependencies": {
     "@nzoth/markdown-it-mermaid-sse": "workspace:*"
